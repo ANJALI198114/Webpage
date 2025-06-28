@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SwipeVerse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              jakarta: ['"Plus Jakarta Sans"', "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="bg-[#211733] text-white">
+
+
+    <!-- NAVBAR -->
+    <header
+      class="w-full border-b border-white/60 py-3 px-10 flex justify-between items-center"
+    >
+      
+      <div class="flex items-center gap-4 h-[23px] w-[137px]">
+        <img src="assets/Vector - 0.png" alt="App Icon" class="w-4 h-4" />
+        <span class="text-[18px] leading-[23px] font-bold font-jakarta">
+          SwipeVerse
+        </span>
+      </div>
+
+     
+      <div class="flex items-center gap-8 w-[1063px] max-w-full justify-end">
+        <nav class="hidden md:flex gap-8 text-sm">
+          <a href="#" class="hover:text-fuchsia-400">How it Works</a>
+          <a href="#" class="hover:text-fuchsia-400">Features</a>
+          <a href="#" class="hover:text-fuchsia-400">Safety</a>
+          <a href="#" class="hover:text-fuchsia-400">Community</a>
+        </nav>
+        <a
+          href="#"
+          class="bg-[#6E33F2] text-white px-4 py-2 rounded-full text-sm hover:bg-fuchsia-700 transition"
+        >
+          Join Now
+        </a>
+      </div>
+    </header>
+
+
+
+    <!-- HERO SECTION -->
+
+    <div class="w-[1280px] h-[2107px] px-[160px] pt-[20px] pb-[20px] mx-auto">
+      <div class="w-[960px] max-w-[960px] h-[2067px] mx-auto">
+        <section
+          class="relative w-[960px] h-[512px] p-4 overflow-hidden rounded-[12px]">
+
+    
+          <img
+            src="assets/hero.png"  
+            alt="Hero Image"
+            class="w-[928px] h-[480px] object-cover rounded-[12px] z-0"
+          />
+
+        
+          <div class="absolute inset-0 w-full h-full z-10 rounded-[12px]"
+            style="background: linear-gradient(90deg,rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%);">
+          </div>
+
+          <div class="absolute top-[213px] left-[90px] w-[896px] h-[200px] z-20 flex flex-col items-center justify-start gap-2">
+
+            <!-- Heading -->
+            <h1 class="w-[660px] font-jakarta font-extrabold text-[45px] leading-[60px] tracking-[-0.02em] text-center text-white">
+              Find Your Perfect Match with SwipeVerse
+            </h1>
+
+
+            <!-- Subheading -->
+            <p class="w-[593px] font-jakarta text-[16px] leading-[24px] text-center relative left-[-35px] text-[#FFFFFF]">
+              Experience a new era of dating with our web3-powered app. Our fair
+              matching algorithm ensures everyone has an equal opportunity to
+              connect with their ideal partner.
+            </p>
+          </div>
+
+
+          <!-- Join Now Button -->
+          <a href="#" class="absolute top-[413px] left-[445px] w-[110px] h-[48px] px-5 bg-[#6E33F2] hover:bg-[#5c28cb] text-white text-sm text-center leading-[48px] rounded-[24px] font-semibold z-20 transition">
+            Join Now
+          </a>
+        </section>
+
+
+
+        <!-- Next Section -->
+        <section class="w-[960px] h-[407px] px-[16px] pt-[40px] pb-[40px] flex flex-col gap-[40px] mx-auto">
+
+          <!-- Heading + Subheading -->
+          <div class="w-[928px] h-[109px] flex flex-col gap-[16px]">
+
+            <h2 class="w-[720px] h-[45px] text-white text-[32px] font-bold font-jakarta leading-[45px]">
+              Why Choose SwipeVerse?
+            </h2>
+
+            <p class="w-[720px] h-[48px] text-white text-[16px] leading-[24px] font-jakarta">
+              SwipeVerse is revolutionizing the dating scene with its innovative
+              approach, combining the power of web3 with a commitment to
+              fairness and security.
+            </p>
+          </div>
+
+          
+          <div class="w-[928px] flex gap-[12px]">
+         
+            <div class="bg-[#403069] w-[301px] h-[178px] p-[16px] border border-white/10 rounded-[8px] text-white flex flex-col gap-[12px]">
+              <p class="font-bold font-jakarta">Fair Matching Algorithm</p>
+              <p class="text-[14px] leading-[20px] font-jakarta">
+                Our algorithm ensures every user has an equal chance of finding
+                a match, eliminating biases and promoting genuine connections.
+              </p>
+            </div>
+
+            
+            <div class="bg-[#403069] w-[301px] h-[178px] p-[16px] border border-white/10 rounded-[8px] text-white flex flex-col gap-[12px]">
+              <p class="font-bold font-jakarta">Decentralized Profiles</p>
+              <p class="text-[14px] leading-[20px] font-jakarta">
+                Your profile is stored securely on the blockchain, giving you
+                complete control over your data and ensuring privacy.
+              </p>
+            </div>
+
+
+            <div class="bg-[#403069] w-[301px] h-[178px] p-[16px] border border-white/10 rounded-[8px] text-white flex flex-col gap-[12px]">
+              <p class="font-bold font-jakarta">Enhanced Security</p>
+              <p class="text-[14px] leading-[20px] font-jakarta">
+                Benefit from the security features of web3, including encrypted
+                messaging and verified identities, for a safer dating
+                experience.
+              </p>
+            </div>
+          </div>
+        </section>
+        
+
+
+        <!-- Next Section -->
+        <section class="w-[960px] h-[530px] px-[16px] pt-[40px] pb-[40px] flex flex-col gap-[40px] mx-auto">
+
+          <!-- Heading + Subheading -->
+          <div class="w-[928px] h-[109px] flex flex-col gap-[16px]">
+            <h2 class="w-[720px] h-[45px] text-white text-[32px] font-bold font-jakarta leading-[45px]">
+              Unique Features
+            </h2>
+
+            <p class="w-[720px] h-[48px] text-white text-[16px] leading-[24px] font-jakarta">
+              SwipeVerse offers a range of unique features designed to enhance
+              your dating experience and help you find meaningful connections.
+            </p>
+          </div>
+
+
+          <div class="w-[928px] h-[301px] flex gap-[12px]">
+
+            <!-- Icon 1 -->
+            <div class="w-[301px] h-[301px] flex flex-col gap-[12px] pb-[12px]">
+              <img
+                src="assets/icon1.png"
+                alt="Interactive Matching"
+                class="w-[301px] h-[169px] rounded-[12px] object-cover"/> 
+              <div class="w-[301px] h-[108px] text-white">
+                <p class="font-bold font-jakarta mb-1">Interactive Matching</p>
+
+                <p class="text-[14px] text-[#A38FCC] leading-[20px] font-jakarta">
+                  Engage in fun and interactive matching games that help you
+                  discover potential partners based on shared interests and
+                  values.
+                </p>
+              </div>
+            </div>
+
+            <!-- Icon 2 -->
+            <div class="w-[301px] h-[301px] flex flex-col gap-[12px] pb-[12px]">
+              <img
+                src="assets/icon2.png"
+                alt="Verified Profiles"
+                class="w-[301px] h-[169px] rounded-[12px] object-cover"/>
+              <div class="w-[301px] h-[108px] text-white">
+                <p class="font-bold font-jakarta mb-1">Verified Profiles</p>
+
+                <p class="text-[14px] text-[#A38FCC] leading-[20px] font-jakarta">
+                  Our web3-powered verification system ensures that all profiles
+                  are authentic, reducing the risk of fake accounts and scams.
+                </p>
+              </div>
+            </div>
+
+            <!-- Icon 3 -->
+            <div class="w-[301px] h-[301px] flex flex-col gap-[12px] pb-[12px]">
+              <img
+                src="assets/icon3.png"
+                alt="Community Events"
+                class="w-[301px] h-[169px] rounded-[12px] object-cover"/>
+              <div class="w-[301px] h-[108px] text-white">
+                <p class="font-bold font-jakarta mb-1">Community Events</p>
+
+                <p class="text-[14px] text-[#A38FCC] leading-[20px] font-jakarta">
+                  Participate in virtual and in-person community events to meet
+                  other SwipeVerse users in a relaxed and social setting.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- Testimonials Section -->
+        <section class="w-[960px] mx-auto flex flex-col">
+
+          <!-- Heading -->
+          <div class="w-[960px] h-[60px] px-[16px] pt-[20px] pb-[12px]">
+            <h2 class="w-[928px] h-[28px] text-[22px] leading-[28px] font-bold text-white font-jakarta">
+              Testimonials
+            </h2>
+          </div>
+
+        
+          <div class="w-[960px] h-[558px] px-[16px] flex gap-[12px]">
+
+            <!-- Profile 1 -->
+            <div
+              class="w-[301px] h-[526px] min-w-[240px] flex flex-col gap-[16px] rounded-[8px]">
+              <img
+                src="assets/profile1.png"
+                alt="Sophia R."
+                class="w-[301px] h-[402px] rounded-[12px] object-cover"/>
+              <div class="w-[301px] h-[108px] text-white">
+                <p class="font-bold font-jakarta mb-1">Sophia R.</p>
+                <p class="text-[14px] text-[#A38FCC] leading-[20px] font-jakarta">
+                  “I was skeptical about online dating, but SwipeVerse changed
+                  my mind. The fair algorithm really works, and I’ve met some
+                  amazing people.”
+                </p>
+              </div>
+            </div>
+
+            <!-- Profile 2 -->
+            <div class="w-[301px] h-[526px] min-w-[240px] flex flex-col gap-[16px] rounded-[8px]">
+              <img
+                src="assets/profile2.png"
+                alt="Ethan L."
+                class="w-[301px] h-[402px] rounded-[12px] object-cover"/>
+              <div class="w-[301px] h-[108px] text-white">
+                <p class="font-bold font-jakarta mb-1">Ethan L.</p>
+                <p class="text-[14px] text-[#A38FCC] leading-[20px] font-jakarta">
+                  “The security features of SwipeVerse are a game-changer. I
+                  feel much safer knowing my data is protected and the profiles
+                  are real.”
+                </p>
+              </div>
+            </div>
+
+            <!-- Profile 3 -->
+            <div class="w-[301px] h-[526px] min-w-[240px] flex flex-col gap-[16px] rounded-[8px]">
+              <img
+                src="assets/profile3.png"
+                alt="Olivia M."
+                class="w-[301px] h-[402px] rounded-[12px] object-cover"/>
+              <div class="w-[301px] h-[108px] text-white">
+                <p class="font-bold font-jakarta mb-1">Olivia M.</p>
+                <p class="text-[14px] text-[#A38FCC] leading-[20px] font-jakarta">
+                  “I love the community events! It’s a great way to meet people
+                  in person and build genuine connections. SwipeVerse is the
+                  best dating app I’ve used.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="w-full h-[200px] flex justify-center items-center text-white font-jakarta">
+          
+          <div class="w-[960px] h-[200px] flex flex-col items-center justify-center gap-[16px]">
+            
+            <div class="w-[920px] h-[24px] flex justify-between">
+                 
+              <a href="#" class="w-[160px] h-[24px] text-[16px] leading-[24px] text-center text-[#A38FCC]">
+                Terms of Service
+              </a>
+
+              <a href="#" class="w-[160px] h-[24px] text-[16px] leading-[24px] text-center text-[#A38FCC]">
+                Privacy Policy
+              </a>
+              <a href="#" class="w-[160px] h-[24px] text-[16px] leading-[24px] text-center text-[#A38FCC]">
+                Contact Us
+              </a>
+            </div>
+
+
+            
+            <div class="w-[920px] h-[24px] flex justify-center items-center gap-[16px]">
+
+              <a href="https://www.twitter.com/">
+                <img
+                  src="assets/twitter.png"
+                  alt="Twitter"
+                  class="w-[24px] h-[24px]"/>
+              </a>
+
+              <a href="https://www.instagram.com/">
+                <img
+                  src="assets/instagram.png"
+                  alt="Instagram"
+                  class="w-[24px] h-[24px]"/>
+              </a>
+
+              <a href="https://www.facebook.com/">
+                <img
+                  src="assets/facebook.png"
+                  alt="Facebook"
+                  class="w-[24px] h-[24px]"/>
+              </a>
+            </div>
+
+
+            
+            <p class="w-[920px] h-[24px] text-[16px] leading-[24px] text-center text-[#A38FCC]">
+              © 2024 SwipeVerse. All rights reserved.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
